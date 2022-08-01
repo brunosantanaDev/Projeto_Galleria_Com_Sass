@@ -218,7 +218,11 @@ body ul {
 
 footer {
   text-align: center;
-  padding-bottom: bold;
+  padding-bottom: 2rem;
+}
+footer spam {
+  font-weight: bold;
+  color: #20c997;
 }
 
 /*# sourceMappingURL=style.css.map */

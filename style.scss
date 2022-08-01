@@ -151,12 +151,14 @@ body {
   }
 }
 
+
 footer{
   text-align: center;
-  padding-bottom: bold;
+  padding-bottom: 2rem;
 
-  span {
-
-    }
+  spam {
+    font-weight: bold;
+    color: variables.$secondary-color;
+  }
 
 }
