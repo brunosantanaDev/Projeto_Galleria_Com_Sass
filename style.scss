@@ -77,7 +77,6 @@ body {
 }
 
 
-
 .gallery {
   @include mixins.container;
   @include mixins.flex-center;
@@ -89,6 +88,9 @@ body {
     width: 31%;
     height: 400px;
     margin-bottom: 4%;
+    @include mixins.flex-center;
+    flex-direction: column;
+    color: variables.$primary-color;
 
     &-title {
       font-size: 2rem;
@@ -146,7 +148,15 @@ body {
     &#card-9 {
           @include mixins.bg-img("refeicoes.jpg");
     }
-
-
   }
+}
+
+footer{
+  text-align: center;
+  padding-bottom: bold;
+
+  span {
+
+    }
+
 }
